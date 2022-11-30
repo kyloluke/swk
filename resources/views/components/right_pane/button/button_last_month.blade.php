@@ -1,0 +1,1 @@
+<i class="fas fa-caret-square-left fa-2x"></i>

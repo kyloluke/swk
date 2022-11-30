@@ -1,0 +1,86 @@
+.nav-link-page {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+.nav-pills .nav-link-page {
+    background-color:#FF8247;
+    text-align:center;
+    font-size:11pt;
+    border :1pt solid white;
+    color :white;
+}
+.nav-pills .nav-link-page.active {
+    background-color:#F4A460;
+    text-align:center;
+    font-size:11pt;
+    border-color :white;
+    color :white;
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none;
+}
+.card-title {
+    margin-bottom: 0.75rem;
+    font-size:1.1rem;
+}
+.board {
+    color:#27408B;
+    font-size:11pt;
+    background-color:#E8E8E8;
+}
+.table-record-time {
+    width: 100%;
+    color: #000000;
+}
+.table-record-time th,
+.table-record-time td {
+    vertical-align: center;
+    text-align: center;
+    border: 1px solid #000000;
+    height: 20pt;
+}
+.table-white {
+    width: 100%;
+    color: #000000;
+    background-color: #ffffff;
+}
+.table-white th,
+.table-white td {
+    vertical-align: center;
+    text-align: center;
+    border-top: 1px solid #696e72;
+    height: 20pt;
+}

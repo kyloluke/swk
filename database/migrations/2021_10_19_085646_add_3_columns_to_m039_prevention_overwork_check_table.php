@@ -1,0 +1,36 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class Add3ColumnsToM039PreventionOverworkCheckTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::table('m039_prevention_overwork_check', function (Blueprint $table) {
+            $table->unsignedBigInteger('company_id')->after('valid_class');
+            $table->integer('is_valid')->default(0)->after('company_id');
+            $table->unsignedBigInteger('origin_prevention_overwork_check_id')->nullable()->after('is_valid');
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::table('m039_prevention_overwork_check', function (Blueprint $table) {
+            $table->dropColumn('company_id');
+            $table->dropColumn('is_valid');
+            $table->dropColumn('origin_prevention_overwork_check_id');
+        });
+    }
+}

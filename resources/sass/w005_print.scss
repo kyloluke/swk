@@ -1,0 +1,207 @@
+#loginCheckHeader{
+    font-family: 'Noto Sans JP', sans-serif;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+#workingStatusHeader{
+    margin-top: 20pt;
+}
+.table-record-detail{
+    height: 525px; 
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.do-apply{
+    width: 4%;
+    font-weight: 100;
+}
+.title-date{
+    width: 6%;
+    font-weight: 100;
+}
+.actiual-result-1{
+    width: 4%;
+    font-weight: 100;
+}
+.actiual-result-2{
+    width: 8%;
+    font-weight: 100;
+}
+.not-employed{
+    width: 4%;
+    font-weight: 100;
+}
+.app-time{
+    width: 18%;
+    font-weight: 100;
+}
+.punch-time{
+    width: 10%;
+    font-weight: 100;
+}
+.actiual-work{
+    width: 4%;
+    font-weight: 100;
+}
+.off-hours{
+    width: 4%;
+    font-weight: 100;
+}
+.deduction{
+    width: 4%;
+    font-weight: 100;
+}
+.holiday-work{
+    width: 4%;
+    font-weight: 100;
+}
+.midnight{
+    width: 4%;
+    font-weight: 100;
+}
+.absence{
+    width: 4%;
+    font-weight: 100;
+}
+.contact-reason-1{
+    width: 16%;
+    font-weight: 100;
+}
+.contact-reason-2{
+    width: 12%;
+    font-weight: 100;
+}
+.approver{
+    width: 6%;
+    font-weight: 100;
+}
+.author{
+    width: 6%;
+    font-weight: 100;
+}
+.work-zone{
+    width: 10%;
+    font-weight: 100;
+}
+.start-of-work{
+    width: 4%;
+    font-weight: 100;
+}
+.end-of-work{
+    width: 4%;
+    font-weight: 100;
+}
+.start-of-work-2{
+    width: 5%;
+    font-weight: 100;
+}
+.end-of-work-2{
+    width: 5%;
+    font-weight: 100;
+}
+@media print{
+    #loginCheckHeader{
+        display: none;
+    }
+    #workingStatusHeader{
+        display: none;
+    }
+    .col-auto.h-100{
+        display: none;
+    }
+    .nav.nav-tabs.mb-3{
+        display: none;
+    }
+    .card-button{
+        display: none;
+    }
+    .card-body{
+        color:black;
+    }
+    .pagectl
+    {
+        transform: rotate(90deg) scale(1.3,0.8);
+        transform-origin: 45% 55%;
+    }
+    .actual-working-hours-year{
+        display: none;
+    }
+    .get-paid-holiday-year{
+        display: none;
+    }
+    .off-hours-year{
+        display: none;
+    }
+    .sp-condition-count-year{
+        display: none;
+    }
+    .lastrow-empty-column-1{
+        display: none;
+    }
+    .lastrow-empty-column-2{
+        display: none;
+    }
+    .lm-lw-aw-hours{
+        display: none;
+    }
+    .agree-year-detail{
+        display: none;
+    }
+    .table-record-detail {
+        height: auto;
+        overflow-y: visible;
+        overflow-x: visible;
+    }
+    .title-date{
+        width: 6.2%;
+    }
+    .actiual-result-1 {
+        width: 3.9%;
+    }
+    .actiual-result-2 {
+        width: 7.9%;
+    }
+    .not-employed {
+        width: 4.0%;
+    }
+    .work-zone {
+        width: 10.05%;
+    }
+    .start-of-work {
+        width: 4.0%;
+    }
+    .start-of-work-2{
+        width: 5.1%;
+    }
+    .end-of-work-2{
+        width: 5.1%;
+    }
+    .actiual-work{
+        width: 4.1%;
+    }
+    .off-hours{
+        width: 4.0%;
+    }
+    .deduction {
+        width: 4.0%;
+    }
+    .holiday-work {
+        width: 4.0%;
+    }
+    .midnight {
+        width: 4.05%;
+    }
+    .absence {
+        width: 4.0%;
+    }
+    .contact-reason-1 {
+        width: 16.1%;
+    }
+    .contact-reason-2 {
+        width: 12.1%;
+    }
+    .approver {
+        width: 6.1%;
+    }
+  }
